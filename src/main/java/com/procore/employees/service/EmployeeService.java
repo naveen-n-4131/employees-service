@@ -55,8 +55,7 @@ public class EmployeeService {
      */
     public Optional<Employee> updateEmployee(Long id, Employee employeeDetails) {
         return employeeRepository.findById(id).map(employee -> {
-            // Update fields from employeeDetails
-            employee.setName(employeeDetails.getName());
+
             employee.setEmail(employeeDetails.getEmail());
             employee.setPosition(employeeDetails.getPosition());
             employee.setDepartment(employeeDetails.getDepartment());
