@@ -37,7 +37,7 @@ Before you begin, ensure the following are installed on your machine:
 
 2. **Build the application**
    ```bash
-    mvn clean package -DskipTest
+    mvn clean package -DskipTests
    
 3. **Run Service and PostgreSQL with Docker**
 
