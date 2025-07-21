@@ -34,12 +34,16 @@ Before you begin, ensure the following are installed on your machine:
    ```bash
    git clone https://github.com/naveen-n-4131/employees-service.git
    cd employees-service
+
+2. **Build the application**
+   ```bash
+    mvn clean package -DskipTest
    
-2. **Run Service and PostgreSQL with Docker**
+3. **Run Service and PostgreSQL with Docker**
 
     ```bash
     docker compose up --build
-3. **Access the app**
+4. **Access the app**
 
 - Service is now running at: http://localhost:8080
 - PostgreSQL is running at: localhost:5432 (User: postgres, Password: postgres, DB: employeedb)
