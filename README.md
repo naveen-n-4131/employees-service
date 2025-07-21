@@ -72,10 +72,10 @@ Before you begin, ensure the following are installed on your machine:
 ## 🧪 Test the APIs
 You can use Postman or curl to test endpoints like:
 
-    GET    http://localhost:8080/employees
-    POST   http://localhost:8080/employees
-    PUT    http://localhost:8080/employees/{id}
-    DELETE http://localhost:8080/employees/{id}
+    GET    http://localhost:8080/api/employees
+    POST   http://localhost:8080/api/employees
+    PUT    http://localhost:8080/api/employees/{id}
+    DELETE http://localhost:8080/api/employees/{id}
 
 ## ⚙️ Environment Variables
 If using Docker, these are configured via docker-compose.yml:
